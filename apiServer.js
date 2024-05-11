@@ -21,8 +21,8 @@ var userCollection;
 var orderCollection;
 
 client.connect((err) => {
-  userCollection = client.db("giftdelivery").collection("users");
-  orderCollection = client.db("giftdelivery").collection("orders");
+  userCollection = client.db("gift_delivery").collection("users");
+  orderCollection = client.db("gift_delivery").collection("orders");
 
   // perform actions on the collection object
   console.log("Database up!\n");
